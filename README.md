@@ -14,7 +14,7 @@ First, use your chosen text-to-video (T2V) model to generate videos based on eac
 
 ### 2. Caption Extraction
 
-For each generated video, extract **8 captions** describing different aspects of the video. We used the **AuroraCap** model for this step.
+For each generated video, extract **8 captions** describing different aspects of the video. We used the [**AuroraCap**](https://github.com/rese1f/aurora) model for this step.
 
 To do this:
 - Visit the AuroraCap model's GitHub repository.
