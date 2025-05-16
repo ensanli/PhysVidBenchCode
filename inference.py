@@ -47,7 +47,7 @@ def predict_aurora(video_path, prompt_type):
     return tokenizer.batch_decode(cont, skip_special_tokens=True)[0]
 
 
-BASE_PATH = "home-esanli25/benchmark_videos/"
+BASE_PATH = "/benchmark_videos/"
 MODEL_NAME = "aurora" 
 BASE_OUT_DIR = f"{BASE_PATH}/outputs/{MODEL_NAME}"
 os.makedirs(BASE_OUT_DIR, exist_ok=True)
